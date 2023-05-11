@@ -1,0 +1,59 @@
+.row {
+    width: 100%;
+}
+
+.carousel-caption {
+    bottom: 30%;
+}
+
+.menu {
+    background-image: none;
+    line-height: 20px;
+}
+
+.menu > i {
+    line-height: 27px;
+}
+
+.controls {
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.253);
+    line-height: 2rem;
+}
+
+.barra::after {
+    content: "";
+    position: absolute;
+    width: 40%;
+    left: 0;
+    bottom: -1px;
+    border: 1px solid #72c05b;
+}
+
+.green1 {
+    color: #70ba59;
+}
+
+.green2 {
+    color: #72c05b;
+}
+
+.greenbg {
+    background-color: #72c05b;
+}
+
+.greenbg:hover {
+    background-color: #538f41;
+}
+
+.gray {
+    background-color: #e5e5e5;
+}
+
+.gray:hover {
+    background-color: #c9c7c7;
+}
+
+.testimonio {
+    font-size: .8rem;
+}
